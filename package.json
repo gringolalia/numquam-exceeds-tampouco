@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.9.2",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0"

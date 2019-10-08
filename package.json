@@ -1,4 +1,4 @@
-  {
+{
   "name": "Numquam-Extra-Espadas",
   "version": "1.0.0",
   "description": "SPA for Nuxt to Push to Heroku",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.0",
+    "@nuxtjs/now-builder": "^0.16.4",
     "cross-env": "^5.2.0",
     "nuxt": "^2.9.2",
     "pug": "^2.0.4",

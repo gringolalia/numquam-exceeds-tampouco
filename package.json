@@ -1,4 +1,4 @@
-{
+  {
   "name": "Numquam-Extra-Espadas",
   "version": "1.0.0",
   "description": "SPA for Nuxt to Push to Heroku",
@@ -8,6 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "heroku-postbuild": "npm run build",
     "generate": "nuxt generate"
   },
   "dependencies": {

@@ -14,7 +14,10 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css' } 
+
     ]
   },
 
@@ -27,6 +30,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    './semantic/dist/semantic.min.css'
   ],
 
   /*
@@ -40,25 +44,23 @@ module.exports = {
   */
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    // '@nuxtjs/bulma'
   ],
 
   /*
   ** Build configuration
   */
-  build: {
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false
-        }
-      }
-    },
+  // build: {
+  //   extend(config, ctx) {},
+  //   transpile: [
+  //     'mdbvue/lib/components'
+  //   ]
+  // },
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    // extend(config, ctx) {
       
-    }
-  }
+    // }
+  // }
 }

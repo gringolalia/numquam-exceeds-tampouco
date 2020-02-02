@@ -1,14 +1,17 @@
 <template lang="pug">
   section.container
     div
-      logo
-      h1.title Numquam Extra Espadas
+      h1
+        i.fas.fa-cogs.fa-5x.mt-12
+      h1.ui.enormous.header New Efficient Extras
         
-      h2.subtitle SPA for Nuxt to Push to Heroku
+      h2.ui.huge.header Semantic SPA for Nuxt 
+      
+      h3.ui.big.header  Push Me to Heroku
         
       .links
-        a.button--green(href='https://nuxtjs.org/' target='_blank') Docudramas
-        a.button--grey(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddling
+        .ui.large.primary.button.mr-8(href='https://nuxtjs.org/' target='_blank') Docudramas
+        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddling
 </template>
 
 <script>

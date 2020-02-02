@@ -1,12 +1,13 @@
 <template lang="pug">
-	.ui.huge.fixed.borderless.primary.inverted.menu
+div#app
+	.ui.huge.fixed.borderless.inverted.menu
 		a.item(style="font-size: 24px;" href="/")
-			i.material-icons.md-48 autorenew
-			| &nbsp; &nbsp;Engenho Novo LLC
-		a.item.computer.only
+			i.fas.fa-sun.fa-2x.mr-6
+			| Engenho Novo LLC
+		a.item
 			| In Principio
 
-		a.item.computer.only
+		a.item
 			| In Media Res
 
 		.right.menu
@@ -14,50 +15,57 @@
 			a.item
 				.ui.compact.primary.inverted.menu
 					.ui.simple.dropdown.item
-						i.material-icons.md-36 rowing
-						| &nbsp;&nbsp;Eminent Babylonians
+						i.material-icons.md-36.mr-4 rowing
+						| Notorious Brazilians
 						i.dropdown.icon
 						.menu
 							a.item(href="/Gilgamesh")
-								i.material-icons.md-24.mr1 rowing
-								| Gilgamesh
+								i.material-icons.md-24.mr-5 rowing
+								| Jair Bolsonaro
 
 							a.item(href="/Inanna")
-								i.material-icons.md-24.mr1 track_changes
-								| Inanna
+								i.material-icons.md-24.mr-5 track_changes
+								| Paulo Maluf
 							a.item(href="/Atrahasis")
-								i.material-icons.md-24.mr1 call
-								| Atrahasis
+								i.material-icons.md-24.mr-5 call
+								| Antônio Carlos Magalhães
 							a.item(href="/Enmerker")
-								i.material-icons.md-24.mr1 autorenew
-								| Enmerkar
+								i.material-icons.md-24.mr-5 autorenew
+								| Carlos Lacerda
 							a.item(href="/EnumaElish")
-								i.material-icons.md-24.mr1 account_balance
-								| Enuma Elish
+								i.material-icons.md-24.mr-5 account_balance
+								| Olavo de Carvalho
 							a.item(href="/Karet")
-								i.material-icons.md-24.mr1 pool
-								| Karet
+								i.material-icons.md-24.mr-5 pool
+								| Delegado Fleury
 							a.item(href="/Kumarbi")
-								i.material-icons.md-24.mr1 directions_run
-								| Kumarbi
-							a.item(href="/Lugalbanda")
-								i.material-icons.md-24.mr1 beach_access
-								| Lugalbanda
-		script.
-			$(document).ready(function(){
-					$('.ui.dropdown').dropdown();
-				});
+								i.material-icons.md-24.mr-5 directions_run
+								| Janaina Paschoal
+							a.item(href="/bonner")
+								i.material-icons.md-24.mr-5 beach_access
+								| William Bonner
+							a.item(href="/braga")
+								i.material-icons.md-24.mr-5 beach_access
+								| The Civita Dynasty
+						script.
+							$(document).ready(function(){
+									$('.ui.dropdown').dropdown();
+								});
 
-		script.
-			$('.activating.element')
-			.popup()
-			;
+						script.
+							$('.activating.element')
+							.popup()
+							;
 
 
 	nuxt
 </template>
 
 <style>
+
+@import 'semantic/dist/semantic.css';
+@import '../node_modules/raisincss/raisin.css';
+
 html {
 	font-family: 'News Cycle', -apple-system, BlinkMacSystemFont, 'Segoe UI',
 		Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -76,33 +84,43 @@ html {
 	box-sizing: border-box;
 	margin: 0;
 }
+      html, body, .header, .button, .ui {
+        font-family: "News Cycle", sans-serif !important;
+        font-weight: 300 !important;
+        font-style: normal !important;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "News Cycle", sans-serif !important;
+        font-weight: 300 !important;
+        font-style:normal !important;
+      }
 
-.button--green {
-	display: inline-block;
-	border-radius: 4px;
-	border: 1px solid #3b8070;
-	color: #3b8070;
-	text-decoration: none;
-	padding: 10px 30px;
-}
+      .dignity {
+        font-family: "News Cycle", sans-serif !important;
+        font-weight: 300 !important;
+        font-style:normal !important;
+      }
+      i, .material-icons {
+        vertical-align: middle;
+      }
 
-.button--green:hover {
-	color: #fff;
-	background-color: #3b8070;
-}
+      .material-icons.md-18 { font-size: 18px; }
+      .material-icons.md-24 { font-size: 24px; }
+      .material-icons.md-36 { font-size: 36px; }
+      .material-icons.md-48 { font-size: 48px; }
+      .material-icons.md-56 { font-size: 56px; }
+      .material-icons.md-64 { font-size: 64px; }
+			.material-icons.md-72 { font-size: 72px; }
+      .material-icons.md-80 { font-size: 80px; }
 
-.button--grey {
-	display: inline-block;
-	border-radius: 4px;
-	border: 1px solid #35495e;
-	color: #35495e;
-	text-decoration: none;
-	padding: 10px 30px;
-	margin-left: 15px;
-}
+      /* Rules for using icons as black on a light background. */
+      .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+      .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
-.button--grey:hover {
-	color: #fff;
-	background-color: #35495e;
-}
+      /* Rules for using icons as white on a dark background. */
+      .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+      .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+    </style>
+
 </style>

@@ -1,13 +1,13 @@
 <template lang="pug">
   section.container
-    div
+    div(style="margin-top: 18vh;")
       h1
         i.fas.fa-cogs.fa-5x.mt-12
-      h1.ui.enormous.header New Efficient Extras
+      h1.ui.enormous.header New Efficient Extra
         
-      h2.ui.huge.header Semantic SPA for Nuxt 
+      h2.ui.huge.header Semantic SPA for New Extremes 
       
-      h3.ui.big.header  Push Me to Heroku
+      h3.ui.big.header  Push Me to Heroku, Yoko
         
       .links
         .ui.large.primary.button.mr-8(href='https://nuxtjs.org/' target='_blank') Docudramas

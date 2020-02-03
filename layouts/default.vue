@@ -19,33 +19,36 @@ div#app
 						| Notorious Brazilians
 						i.dropdown.icon
 						.menu
-							a.item(href="/Gilgamesh")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 rowing
 								| Jair Bolsonaro
 
-							a.item(href="/Inanna")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 track_changes
 								| Paulo Maluf
-							a.item(href="/Atrahasis")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 call
 								| Antônio Carlos Magalhães
-							a.item(href="/Enmerker")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 autorenew
 								| Carlos Lacerda
-							a.item(href="/EnumaElish")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 account_balance
 								| Olavo de Carvalho
-							a.item(href="/Karet")
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 pool
 								| Delegado Fleury
-							a.item(href="/Kumarbi")
+							a.item(href="/Karet")
+								i.material-icons.md-24.mr-5 pool
+								| Getúlio Vargas
+							a.item(href="/")
 								i.material-icons.md-24.mr-5 directions_run
 								| Janaina Paschoal
-							a.item(href="/bonner")
-								i.material-icons.md-24.mr-5 beach_access
-								| William Bonner
-							a.item(href="/braga")
-								i.material-icons.md-24.mr-5 beach_access
+							a.item(href="/")
+								i.material-icons.md-24.mr-5 tv
+								| Clan Marinho
+							a.item(href="/")
+								i.material-icons.md-24.mr-5 local_library
 								| The Civita Dynasty
 						script.
 							$(document).ready(function(){

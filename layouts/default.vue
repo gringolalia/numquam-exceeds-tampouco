@@ -4,10 +4,10 @@ div#app
 		a.item(style="font-size: 24px;" href="/")
 			i.fas.fa-sun.fa-2x.mr-6
 			| Engenho Novo LLC
-		a.item
+		a.item.computer.only
 			| In Principio
 
-		a.item
+		a.item.computer.only
 			| In Media Res
 
 		.right.menu
@@ -37,9 +37,9 @@ div#app
 								| Olavo de Carvalho
 							a.item(href="/")
 								i.material-icons.md-24.mr-5 pool
-								| Delegado Fleury
+								| Sérgio Fleury
 							a.item(href="/Karet")
-								i.material-icons.md-24.mr-5 pool
+								i.material-icons.md-24.mr-5 my_location
 								| Getúlio Vargas
 							a.item(href="/")
 								i.material-icons.md-24.mr-5 directions_run

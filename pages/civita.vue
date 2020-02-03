@@ -3,9 +3,9 @@
     div(style="margin-top: 18vh;")
       h1
         i.fas.fa-cogs.fa-5x.mt-12
-      h1.ui.enormous.header New Efficient Extra
+      h1.ui.enormous.header Civita Opus Dei
         
-      h2.ui.huge.header Semantic SPA for New Extremes 
+      h2.ui.huge.header Veja Só  
       
       h3.ui.big.header  Push Me to Heroku Yoko
         

@@ -18,7 +18,7 @@
     "core-js": "^2.6.11",
     "cross-env": "^5.2.0",
     "mdbvue": "^6.2.0",
-    "nuxt": "^2.9.2",
+    "nuxt": "^2.11.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",

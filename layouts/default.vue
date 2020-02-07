@@ -68,8 +68,7 @@ div#app
 @import '../node_modules/raisincss/raisin.css';
 
 html {
-	font-family: 'News Cycle', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'News Cycle', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 	font-size: 16px;
 	word-spacing: 1px;
 	-ms-text-size-adjust: 100%;

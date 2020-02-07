@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "10.0.0"
-  }
+  },
   "description": "SPA for Nuxt to Push to Heroku",
   "author": "o gran bretonio",
   "private": false,

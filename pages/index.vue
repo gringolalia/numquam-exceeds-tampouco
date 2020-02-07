@@ -3,7 +3,7 @@
     div(style="margin-top: 12vh;")
       h1
         i.material-icons.md-96 my_location
-      h1.ui.enormous.header New Efficient Extra
+      h1.ui.enormous.header Numquam Extra Espadas
         
       h2.ui.huge.header Semantic SPA for New Extremes 
       
@@ -11,7 +11,7 @@
         
       .links
         .ui.large.primary.button.mr-8(href='https://nuxtjs.org/' target='_blank') Docudramas
-        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddlings
+        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Infotainment
 </template>
 
 <script>

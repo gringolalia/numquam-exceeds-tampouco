@@ -59,8 +59,6 @@ div#app
 							$('.activating.element')
 							.popup()
 							;
-
-
 	nuxt
 </template>
 

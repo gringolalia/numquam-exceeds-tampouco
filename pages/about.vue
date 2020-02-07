@@ -10,7 +10,7 @@
       h3.ui.big.header  Push Me to Heroku Yoko
         
       .links
-        .ui.large.primary.button.mr-8(href='/' target='_blank') Docudramas
+        .ui.large.primary.button.mr-8(href='/about' target='_blank') Docudramas
         .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddling
 </template>
 

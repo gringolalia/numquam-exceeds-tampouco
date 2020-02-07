@@ -19,35 +19,35 @@ div#app
 						| Notorious Brazilians
 						i.dropdown.icon
 						.menu
-							a.item(href="/")
+							a.item(href="/bolsonaro")
 								i.material-icons.md-24.mr-5 rowing
 								| Jair Bolsonaro
 
-							a.item(href="/")
+							a.item(href="/maluf")
 								i.material-icons.md-24.mr-5 track_changes
 								| Paulo Maluf
-							a.item(href="/")
+							a.item(href="/acm")
 								i.material-icons.md-24.mr-5 call
 								| Antônio Carlos Magalhães
 							a.item(href="/")
 								i.material-icons.md-24.mr-5 autorenew
 								| Carlos Lacerda
-							a.item(href="/")
+							a.item(href="/olavo")
 								i.material-icons.md-24.mr-5 account_balance
 								| Olavo de Carvalho
-							a.item(href="/")
+							a.item(href="/fleury")
 								i.material-icons.md-24.mr-5 pool
 								| Sérgio Fleury
-							a.item(href="/Karet")
+							a.item(href="/getulio")
 								i.material-icons.md-24.mr-5 my_location
 								| Getúlio Vargas
-							a.item(href="/")
+							a.item(href="/janaina")
 								i.material-icons.md-24.mr-5 directions_run
 								| Janaina Paschoal
-							a.item(href="/")
+							a.item(href="/marinho")
 								i.material-icons.md-24.mr-5 tv
 								| Clan Marinho
-							a.item(href="/")
+							a.item(href="/civita")
 								i.material-icons.md-24.mr-5 local_library
 								| The Civita Dynasty
 						script.

@@ -31,7 +31,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'semantic/dist/semantic.min.css'
+    'node_modules/semantic-ui/dist/semantic.min.css'
   ],
 
   /*

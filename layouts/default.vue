@@ -4,10 +4,10 @@ div#app
 		a.item(style="font-size: 24px; color: #ffffff;" href="/")
 			i.material-icons.md-72.mr-4 my_location
 			| Engenho Novo LLC
-		a.item.computer.only
+		a.item
 			| In Principio
 
-		a.item.computer.only
+		a.item
 			| In Media Res
 
 		.right.menu
@@ -29,7 +29,7 @@ div#app
 							a.item(href="/acm")
 								i.material-icons.md-24.mr-5 call
 								| Antônio Carlos Magalhães
-							a.item(href="/")
+							a.item(href="/lacerd")
 								i.material-icons.md-24.mr-5 autorenew
 								| Carlos Lacerda
 							a.item(href="/olavo")
@@ -38,7 +38,7 @@ div#app
 							a.item(href="/fleury")
 								i.material-icons.md-24.mr-5 pool
 								| Sérgio Fleury
-							a.item(href="/getulio")
+							a.item(href="/vargas")
 								i.material-icons.md-24.mr-5 my_location
 								| Getúlio Vargas
 							a.item(href="/janaina")
@@ -64,8 +64,12 @@ div#app
 
 <style>
 
-@import 'semantic/dist/semantic.css';
+@import '../semantic/dist/semantic.css';
 @import '../node_modules/raisincss/raisin.css';
+
+a {
+	text-decoration: none;
+}
 
 html {
 	font-family: 'News Cycle', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

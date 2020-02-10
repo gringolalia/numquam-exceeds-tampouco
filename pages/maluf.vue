@@ -2,16 +2,16 @@
   section.container
     div(style="margin-top: 18vh;")
       h1
-        i.fas.fa-cogs.fa-5x.mt-8  
-      h1.ui.enormous.header Proof of Maluf
+        i.fas.fa-university.fa-5x.mt-8
+      h1.ui.gigantic.header Proof of Maluf
         
-      h2.ui.huge.header Master of the Minhocão 
+      h2.ui.large.header Eucalyptic Architect of the Minhocão 
       
-      h3.ui.big.header  Push Me to Heroku Yoko
+      h3.ui.big.header  Persona non Grata in New York
         
       .links
-        .ui.large.primary.button.mr-8(href='/' target='_blank') Docudramas
-        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddling
+        .ui.large.primary.button.mr-8(href='/' target='_blank') Corrupção
+        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Grande Ladrão
 </template>
 
 <script>

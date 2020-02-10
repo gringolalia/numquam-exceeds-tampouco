@@ -2,16 +2,16 @@
   section.container
     div(style="margin-top: 18vh;")
       h1
-        i.fas.fa-cogs.fa-5x.mt-12
-      h1.ui.enormous.header Gadfly to Getúlio
+        i.material-icons.md-64.mt-8 mic
+      h1.ui.giganti.header Antônio Carlos Magalhães
         
-      h2.ui.huge.header Shot by Gregôrio Fortunato 
+      h2.ui.large.header Rei da Cocada Branca
       
-      h3.ui.big.header  Tropical Neocon Avant la Lettre
+      h3.ui.big.header  Evil Genius of the PFL
         
       .links
-        .ui.large.primary.button.mr-8(href='https://nuxtjs.org/' target='_blank') Docudramas
-        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Gitfiddling
+        .ui.large.primary.button.mr-8(href='/' target='_blank') Corrupção
+        .ui.large.secondary.button(href='https://github.com/nuxt/nuxt.js' target='_blank') Grande Ladrão
 </template>
 
 <script>

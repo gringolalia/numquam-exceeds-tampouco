@@ -16,6 +16,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/webpack": "^2.11.0",
     "@nuxtjs/bulma": "^1.2.0",
     "@nuxtjs/now-builder": "^0.16.4",
     "bootstrap-css-only": "^4.3.1",
@@ -32,7 +33,7 @@
     "semantic-ui": "^2.4.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.4",
+    "autoprefixer": "^9.7.4",
     "cssnano": "^4.1.10",
     "nodemon": "^1.11.0",
     "postcss-cssnext": "^3.1.0",

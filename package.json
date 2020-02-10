@@ -2,7 +2,7 @@
   "name": "Numquam-Extra-Espadas",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x",
+    "node": "10.x",
     "npm": "6.13.7"
   },
   "description": "SPA for Nuxt to Push to Heroku",

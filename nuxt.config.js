@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: "Numquam Extra Espadas",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -31,7 +31,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'node_modules/semantic-ui/dist/semantic.min.css'
+    './semantic/dist/semantic.min.css'
   ],
 
   /*

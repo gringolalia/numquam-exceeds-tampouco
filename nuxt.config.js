@@ -2,14 +2,14 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-  router: {
-    base: '/numquam-exceeds-tampouco/'
-  },
+  // router: {
+  //   base: '/numquam-exceeds-tampouco/'
+  // },  
   /*
   ** Headers of the page
   */
   head: {
-    title: "Numquam Extra Espadas",
+    title: "Numquam Exceeds Tampouco",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

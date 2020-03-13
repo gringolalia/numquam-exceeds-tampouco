@@ -2,10 +2,10 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-  // router: {
-  //   base: '/numquam-exceeds-tampouco/'
-  // },  
-  /*
+  router: {
+    base: '/numquam-exceeds-tampouco/'
+  },  
+  /*  
   ** Headers of the page
   */
   head: {

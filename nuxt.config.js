@@ -2,12 +2,6 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-    // router: {
-    //   base: '/numquam-exceeds-tampouco/'
-    // },  
-  /*  
-  ** Headers of the page
-  */
   head: {
     title: "Numquam Exceeds Tampouco",
     meta: [
@@ -19,7 +13,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/tretapey/raisincss@1.0.4/raisin.min.css' }
+      { rel: 'stylesheet', href: './semantic/dist/semantic.min.css' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/frow@3/dist/frow.min.css' }
 
     ]
   },
@@ -33,7 +28,6 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    './semantic/dist/semantic.min.css'
   ],
 
   /*
@@ -45,10 +39,17 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    // '@nuxtjs/bulma'
+  modules: [
+
   ],
+
+  generate: {
+        dir: 'public'
+      },
+      
+      router: {
+        base: '/numquam-exceeds-tampouco/'
+      },
 
   /*
   ** Build configuration
